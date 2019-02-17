@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <section class="stage background stage-1">
+            <div class="stage__inner">
+
+                <header class="stage__header">
+                    <div class="stage_logo"><%= title %></div>
+                    <div class="stage_contacts">
+                        <div class="stage_adress">
+                            <img src="images/clock.png" alt="">
+                            <div class="text_adress"><%= time %></div>
+                        </div>
+                        <div class="stage_adress top">
+                            <img src="images/placeholder.png" alt="">
+                            <div class="text_adress"><%= place %></div>
+                        </div>
+                    </div>
+                    <div class="stage_phones">
+                        <span>+38 (044) 35 36 0 36</span>
+                        <span>+38 (067) 504 36 06</span>
+                    </div>
+                    <button class="menu"></button>
+                </header>
+
+                <div class="stage_content">
+
+                    <div class="stage_left">
+                        <div class="stage_presentation">
+                            <h2><%= hh2 %></h2>
+                            <h3 class="header_color"><%= hh3 %></h3>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="stage_tittle">
+                            <h1>
+                                <%= hh1 %>
+                            </h1>
+                            <p>
+                                We are web agency
+                            </p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="stage_items">
+                            <ul class="list_item">
+                                <li class="item">Author-practicing developer</li>
+                                <li class="item">3 hours intensive practice</li>
+                                <li class="item">How sound affects the perception of the product</li>
+                            </ul>
+                        </div>
+                        <div>    
+                            <button class="stage__button"> Book participation </button>
+                        </div>
+                    </div>
+
+                    <div class="stage_right">
+                        <img src="images/astr2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
